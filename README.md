@@ -1,4 +1,4 @@
-# wetube
+# wetube?
  Clone youtube layout and system
 
 # Wetube Reloaded
@@ -9,11 +9,13 @@
 /search -> Search
 
 
-/users/edit -> Edit user
-/users/delete -> Delete user
+/users/:id -> See User
+/users/logout -> Log Out
+/users/edit -> Edit My Profile
+/users/delete -> Delete My Profile
 
-/videos/watch -> Watch Video
-/videos/edit -> Edit Video
-/videos/delete -> Delete Video
-/videos/comment -> Comment on a video
-/videos/comments/delete -> Delete A comment of a Video
+
+/videos/:id -> See Video
+/videos/:id/edit -> Edit Video
+/videos/:id/delete -> Delete Video
+/videos/upload -> Upload Video
