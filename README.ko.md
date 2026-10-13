@@ -29,7 +29,7 @@ npm ci
 npm run dev
 ```
 
-**http://localhost:4000**을 엽니다. 개발 명령은 Nodemon과 Babel로 서버를 실행합니다.
+[http://localhost:4000](http://localhost:4000)을 엽니다. 개발 명령은 Nodemon과 Babel로 서버를 실행합니다.
 
 ## 경로
 
